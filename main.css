@@ -1,21 +1,24 @@
-#left{
-    float: left;
-    align-content: stretch;
-}
-
 #right{
-    float: right;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    position: fixed;
+    display: flex;
+    overflow-y: hidden;
 }
 
 #icon{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+#imagegestoque{
+    height: 100vh;
+    display: flex;
 }
