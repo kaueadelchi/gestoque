@@ -1,0 +1,21 @@
+#left{
+    float: left;
+    align-content: stretch;
+}
+
+#right{
+    float: right;
+    align-content: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
